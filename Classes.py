@@ -6,6 +6,6 @@ class Game:
 
     def Start(self):
         print('Game is started')
-        lalal = input("enter your name")
+        lalal = input("'Hitler did nothing wrong'")
 
         
