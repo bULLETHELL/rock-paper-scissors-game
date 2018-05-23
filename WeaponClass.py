@@ -1,5 +1,8 @@
-class Weapon:
-    def __init__(self, name, winsOver, losesTo):
-        self.n = name
-        self.wO = winsOver
-        self.lT = losesTo
+class Weapon(object):
+    def __init__(self):
+        def getName(self):
+            raise NotImplementedError
+        def getWinsOver(self):
+            raise NotImplementedError
+        def getLosesTo(self):
+            raise NotImplementedError
