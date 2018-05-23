@@ -12,6 +12,8 @@ class Game:
             try: #used try so that if user pressed other than the given key error will not be shown
                 if keyboard.is_pressed('s') and keyboard.is_pressed('k'):#if key 'q' is pressed 
                     print('you are ready')
+                    player1Ready = True
+                    player2Ready = True
                     break#finishing the loop
                 else:
                     pass
