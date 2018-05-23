@@ -35,9 +35,10 @@ class Game:
             print(1)
             time.sleep(1)
             print('GO!')
-            
+
 
 game = Game('dick', 5)
 game.StartGame()
 
 
+if input == 'a' or 'j': this.weapon = weapon[1]
