@@ -1,6 +1,13 @@
-import Classes
+import GameClass
+import PaperChildClass
+import RockChildClass
+import ScissorsChildClass
+import PlayerClass
+players = []
+players.append(PlayerClass.Player(input('Player Zero, enter your name\n')))
+players.append(PlayerClass.Player(input('Player One, enter your name\n')))
 
-game = Classes.Game('Andreas', 'Morten', '5')
+game = GameClass.Game(players, str(input('enter the amount of games in your Best Of series\n')))
 
-game.Start()
+game.StartGame()
 #STOR PIKsXD
